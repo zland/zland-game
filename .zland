@@ -1,0 +1,18 @@
+{
+  "name": "Game",
+  "resolveAlias": "game",
+  "author": "Florian Biewald",
+  "canvasStoreValues": {
+    "hasZombieBittenPlayer": {
+      "method": "hasZombieBittenPlayer()",
+      "store": "stores/GameStore"
+    },
+    "isNewPlayer": {
+      "method": "isNewPlayer()",
+      "store": "stores/GameStore"
+    }
+  },
+  "canvasStores": [
+    "stores/GameStore"
+  ]
+}
